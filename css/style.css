@@ -1,0 +1,29 @@
+.media_query{
+    color: blue;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+/* phone responsiveness */
+@media screen and (max-width:425px) and (min-width:1px){
+  .media_query{
+    color:red;
+    font-size: 50px;
+    }  
+}
+
+
+/* tablet responsiveness */
+@media screen and (max-width :768px ) and (min-width:426px)
+    {
+        .media_query{
+            color:rgb(22, 22, 14) ;
+        }
+    }
+
+/* laptop responsiveness */
+@media screen and (max-width:1440px) and (min-width:427px)
+{
+    .media_query{color: green; font-size: 50px;}
+}
